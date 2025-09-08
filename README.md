@@ -1,32 +1,5 @@
 # 🛡️ W8Team WiFi Hacker - Advanced Auto System
 
-**🚀 Professional WiFi Penetration Testing Tool for Termux & Linux**
-
-*Automated WPS PIN Attack System with AI-Powered PIN Prediction*
-
----
-
-## 📋 **Repository Description** (For GitHub About Section)
-
-```
-🛡️ Advanced WiFi penetration testing tool with automated vulnerability detection and AI-powered PIN prediction. Features auto-attack mode, smart brute force, Pixie Dust attacks, and professional reporting. Optimized for Termux Android environment with beautiful menu interface.
-```
-
-## 🏷️ **GitHub Topics/Tags**
-
-```
-wifi-hacking, wps-attack, pixie-dust, penetration-testing, security-testing, 
-termux, android, wifi-security, bruteforce, ai-prediction, cybersecurity, 
-ethical-hacking, wireless-security, wpa-supplicant, network-security
-```
-
----
-
-## 📖 **Complete GitHub README**
-
-```markdown
-# 🛡️ W8Team WiFi Hacker - Advanced Auto System
-
 <div align="center">
 
 ![Version](https://img.shields.io/badge/Version-2.0-brightgreen)
@@ -55,8 +28,6 @@ W8Team WiFi Hacker is an advanced, automated WiFi penetration testing tool desig
 - 💾 **Auto-Save Results** - All successful attacks automatically saved
 - 🔍 **Multi-Attack Methods** - Pixie Dust, Brute Force, AI Prediction
 
----
-
 ## 🚀 **Features**
 
 ### 🎯 **Attack Methods**
@@ -83,6 +54,19 @@ W8Team WiFi Hacker is an advanced, automated WiFi penetration testing tool desig
 - **Mobile-friendly Interface** - Optimized for small screens
 - **One-command Installation** - Simple setup script included
 
+### 🚀 **What Makes This Special?**
+
+Unlike traditional WiFi tools that require extensive manual configuration, W8Team WiFi Hacker provides a **"one-click"** solution:
+
+1. **🔍 Universal Coverage** - Attacks EVERY WPS network found (not just vulnerable ones)
+2. **⏱️ Smart Timeout System** - 30-second limit per network for maximum efficiency
+3. **🎯 Signal Optimization** - Automatically targets strongest signals first
+4. **⚔️ Multi-Vector Attacks** - Combines Pixie Dust, AI prediction, and brute force
+5. **💎 Instant Results** - Passwords automatically extracted and saved
+6. **📊 Live Progress Tracking** - Real-time statistics and success rates
+7. **🎉 Comprehensive Reports** - Detailed final summaries and attack logs
+8. **💚 Completely Free** - No hidden costs or premium features
+
 ---
 
 ## 🔧 **Installation**
@@ -91,8 +75,8 @@ W8Team WiFi Hacker is an advanced, automated WiFi penetration testing tool desig
 
 ```bash
 # Clone repository
-git clone https://github.com/W8SOJIB/W8RootWifiHKV2V2
-cd W8RootWifiHKV2V2
+git clone https://github.com/W8SOJIB/W8RootWifiHKV2
+cd W8RootWifiHKV2
 
 # Run auto-installer
 bash termux_install.sh
@@ -105,8 +89,8 @@ python oneshot.py
 
 ```bash
 # Clone repository
-git clone https://github.com/W8SOJIB/W8RootWifiHKV2V2
-cd W8RootWifiHKV2V2
+git clone https://github.com/W8SOJIB/W8RootWifiHKV2
+cd W8RootWifiHKV2
 
 # Install dependencies
 sudo apt update
@@ -129,12 +113,19 @@ Simply run the tool without any arguments to access the beautiful menu interface
 python oneshot.py
 ```
 
-### 📋 **Menu Options**
+The tool will display a beautiful menu interface:
 
 ```
+╔═══════════════════ LIVE STATISTICS ═══════════════════╗
+║ TIME: 2024-12-19 15:30:45                            ║
+║ AUTHOR: W8Team/W8SOJIB                               ║
+║ TELEGRAM: https://t.me/W8SOJIB                       ║
+╚═══════════════════════════════════════════════════════╝
+
 ╔══════════════════════════════════════════════════════════════╗
-║                    🛡️  W8Team WiFi Hacker                    ║
-║                      Advanced Auto System                     ║
+║                  🛡️  W8Team WiFi Hacker                     ║
+║                    Advanced Auto System                      ║
+║                     💚 This Tool Free 💚                     ║
 ╠══════════════════════════════════════════════════════════════╣
 ║  [1] 🚀 Auto Attack - Find High Vulnerability & Auto Hack    ║
 ║  [2] 📡 Scan & Attack WiFi - Select Target & Pixie Dust     ║
@@ -146,19 +137,76 @@ python oneshot.py
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
+### **🎯 Attack Modes**
+
+#### **1. 🚀 Enhanced Auto Attack Mode** *(Recommended for Everyone)*
+- **🎯 Attacks EVERY WPS network found** (not just vulnerable ones)
+- **⏱️ Smart 30-second timeout** per network for efficiency
+- **📶 Signal strength optimization** (attacks strongest signals first)
+- **📊 Real-time progress tracking** with live statistics
+- **💾 Auto-saves all successful passwords** to multiple file formats
+- **🔄 Comprehensive coverage** - tries every network systematically
+- **🎉 Detailed final summary** with success rates and statistics
+- **Zero manual configuration required!**
+
+#### **2. 📡 Manual Target Selection**
+- Shows color-coded network list:
+  - 🟢 **Green** = High vulnerability (recommended targets)
+  - 🔴 **Red** = WPS locked (harder targets)
+  - 🟡 **Yellow** = Already cracked
+- Select specific target for Pixie Dust attack
+- Fast and effective for vulnerable routers
+
+#### **3. 🔥 BruteForce Attack**
+- Intelligent PIN brute force with progress tracking
+- Statistical optimization for faster results
+- Real-time ETA and success rate display
+
+#### **4. 🤖 AI PIN Prediction**
+- Advanced machine learning PIN prediction
+- Analyzes BSSID patterns and manufacturer data
+- Higher success rate than traditional methods
+- Falls back to smart brute force if needed
+
+---
+
+## 🚀 **Enhanced Auto Attack Workflow**
+
+The **Auto Attack Mode** now provides unprecedented automation and coverage:
+
+### **📡 Phase 1: Network Discovery**
+```
+[*] 🚀 Starting Enhanced Auto Attack Mode...
+[*] 🎯 Will try EVERY WPS network with Pixie Dust (30 seconds each)
+[*] 📡 Scanning for ALL WPS networks...
+[+] Found 15 WPS networks to attack!
+[*] ⏱️  Each attack will timeout after 30 seconds
+[*] 📊 Estimated total time: 7.5 minutes
+```
+
+### **🎯 Phase 2: Systematic Attacks**
+- **Signal Strength Sorting**: Attacks strongest signals first for better success rates
+- **30-Second Timeouts**: No hanging on difficult networks
+- **Real-time Progress**: Live statistics showing current target and progress
+- **Automatic Progression**: Moves to next target automatically after success/timeout
+
+### **💾 Phase 3: Results & Summary**
+- **Automatic Saving**: All successful passwords saved to multiple file formats
+- **Comprehensive Statistics**: Success rates, timing, and detailed summaries
+- **Attack History**: Complete logs for later analysis and review
+
 ### 🎯 **Quick Start Guide**
 
-1. **🚀 Auto Attack Mode** - Perfect for beginners
-   - Automatically scans all networks
-   - Identifies vulnerable targets
-   - Attacks each target automatically
-   - Saves all passwords
-
-2. **📡 Manual Selection** - For targeted attacks
-   - Shows list of available networks
-   - Color-coded vulnerability indicators
-   - Select specific target
-   - Multiple attack methods available
+1. **🚀 Auto Attack Mode** - Perfect for beginners  
+   * Automatically scans all networks  
+   * Identifies vulnerable targets  
+   * Attacks each target automatically  
+   * Saves all passwords
+2. **📡 Manual Selection** - For targeted attacks  
+   * Shows list of available networks  
+   * Color-coded vulnerability indicators  
+   * Select specific target  
+   * Multiple attack methods available
 
 ### 💻 **Command Line Mode**
 
@@ -181,12 +229,42 @@ python oneshot.py -i wlan0 -b AA:BB:CC:DD:EE:FF --ai-pin
 ## 📊 **Output & Reports**
 
 ### 📁 **Saved Files**
-- **`attack_history.txt`** - Complete attack history with timestamps
-- **`auto_attack_results.txt`** - Auto attack mode results  
-- **`reports/stored.csv`** - Structured CSV format
-- **`reports/All WIFI Password And WPS Pin.txt`** - Human-readable format
+
+* **`attack_history.txt`** - Complete attack history with timestamps
+* **`auto_attack_results.txt`** - Auto attack mode results
+* **`reports/stored.csv`** - Structured CSV format
+* **`reports/All WIFI Password And WPS Pin.txt`** - Human-readable format
+
+### **📈 Enhanced Auto Attack Progress Tracking**
+
+```
+[3/15] 🎯 Attacking: HomeNetwork_5G
+[*] 📶 BSSID: AA:BB:CC:DD:EE:FF | Signal: -45 dBm
+[*] ⏱️  Timeout: 30 seconds | Remaining: 12 networks
+[*] 🧚 Starting Pixie Dust attack (max 30s)...
+[+] ✅ SUCCESS! Cracked HomeNetwork_5G in 12.4 seconds
+[+] 🎉 Total successful: 2/3
+[*] 📈 Progress: 20.0% (3/15)
+[*] ⏳ Waiting 3 seconds before next attack...
+```
+
+### **🎉 Auto Attack Final Summary**
+
+```
+🎯 AUTO ATTACK SUMMARY
+════════════════════════════════════════════════════════════
+📊 Total Networks Scanned: 15
+✅ Successful Attacks: 8
+❌ Failed Attacks: 7
+📈 Success Rate: 53.3%
+⏱️  Total Time: 12.5 minutes
+════════════════════════════════════════════════════════════
+🎉 Congratulations! You cracked 8 networks!
+💾 All passwords saved to files automatically
+```
 
 ### 📈 **Sample Output**
+
 ```
 [*] 🚀 Starting Auto Attack Mode...
 [*] 📡 Scanning for vulnerable networks...
@@ -206,22 +284,25 @@ python oneshot.py -i wlan0 -b AA:BB:CC:DD:EE:FF --ai-pin
 ## 🛠️ **Technical Details**
 
 ### 🔧 **System Requirements**
-- **OS**: Android (Termux) or Linux
-- **Python**: 3.6 or higher
-- **Root Access**: Required for WiFi operations
-- **WiFi Adapter**: Must support monitor mode
+
+* **OS**: Android (Termux) or Linux
+* **Python**: 3.6 or higher
+* **Root Access**: Required for WiFi operations
+* **WiFi Adapter**: Must support monitor mode
 
 ### 📦 **Dependencies**
+
 ```
 python3, python3-pip, iw, wpasupplicant, pixiewps
 pyfiglet, psutil, requests
 ```
 
 ### 🎯 **Supported Attack Vectors**
-- **WPS PIN Attacks** - Brute force and smart prediction
-- **Pixie Dust** - CVE-2014-3816 vulnerability exploitation
-- **Manufacturer Defaults** - Database of known default PINs
-- **Pattern Analysis** - BSSID-based PIN generation
+
+* **WPS PIN Attacks** - Brute force and smart prediction
+* **Pixie Dust** - CVE-2014-3816 vulnerability exploitation
+* **Manufacturer Defaults** - Database of known default PINs
+* **Pattern Analysis** - BSSID-based PIN generation
 
 ---
 
@@ -232,18 +313,21 @@ pyfiglet, psutil, requests
 **⚠️ EDUCATIONAL PURPOSE ONLY ⚠️**
 
 This tool is designed for:
-- ✅ **Educational research** and learning
-- ✅ **Authorized penetration testing** 
-- ✅ **Testing your own networks**
-- ✅ **Security auditing with permission**
+
+* ✅ **Educational research** and learning
+* ✅ **Authorized penetration testing**
+* ✅ **Testing your own networks**
+* ✅ **Security auditing with permission**
 
 **Illegal usage includes:**
-- ❌ Attacking networks without permission
-- ❌ Stealing WiFi passwords
-- ❌ Unauthorized network access
-- ❌ Commercial use without authorization
+
+* ❌ Attacking networks without permission
+* ❌ Stealing WiFi passwords
+* ❌ Unauthorized network access
+* ❌ Commercial use without authorization
 
 ### 🛡️ **Responsible Disclosure**
+
 Users must ensure they have proper authorization before testing any wireless networks. The developers are not responsible for any misuse or illegal activities.
 
 ---
@@ -251,82 +335,50 @@ Users must ensure they have proper authorization before testing any wireless net
 ## 🤝 **Support & Community**
 
 ### 📱 **Telegram Channel**
-- **Join**: [https://t.me/W8SOJIB](https://t.me/W8SOJIB)
-- Get latest updates and support
-- Community discussions and tips
-- Direct contact with developer
+
+* **Join**: https://t.me/W8SOJIB
+* Get latest updates and support
+* Community discussions and tips
+* Direct contact with developer
 
 ### 🐛 **Bug Reports**
-- Report issues via GitHub Issues
-- Include system information and error logs
-- Provide steps to reproduce problems
+
+* Report issues via GitHub Issues
+* Include system information and error logs
+* Provide steps to reproduce problems
 
 ### 💡 **Feature Requests**
-- Suggest new features via GitHub Discussions
-- Vote on upcoming features
-- Contribute to development
+
+* Suggest new features via GitHub Discussions
+* Vote on upcoming features
+* Contribute to development
 
 ---
 
 ## 🏆 **Credits & Acknowledgments**
 
 ### 👨‍💻 **Development Team**
-- **Original OneShot**: rofl0r
-- **Enhanced Version**: W8Team/W8SOJIB
-- **AI Enhancements**: W8Team Development
+
+* **Original OneShot**: rofl0r
+* **Enhanced Version**: W8Team/W8SOJIB
+* **AI Enhancements**: W8Team Development
 
 ### 🙏 **Special Thanks**
-- OneShot contributors
-- Pixiewps developers  
-- WPS security researchers
-- Termux development team
-- Community testers and contributors
 
----
-
-## 📈 **Project Statistics**
-
-![GitHub stars](https://img.shields.io/github/stars/W8SOJIB/W8RootWifiHKV2?style=social)
-![GitHub forks](https://img.shields.io/github/forks/W8SOJIB/W8RootWifiHKV2?style=social)
-![GitHub issues](https://img.shields.io/github/issues/W8SOJIB/W8RootWifiHKV2)
-![GitHub last commit](https://img.shields.io/github/last-commit/W8SOJIB/W8RootWifiHKV2)
-
----
+* OneShot contributors
+* Pixiewps developers
+* WPS security researchers
+* Termux development team
+* Community testers and contributors
 
 ## 📄 **License**
 
-This project is licensed under the Educational License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Educational License - see the LICENSE file for details.
 
 **Remember: Use responsibly and legally! 🛡️**
 
 ---
 
-<div align="center">
-
 **Made with ❤️ by W8Team**
 
-[📱 Telegram](https://t.me/W8SOJIB) • [⭐ Star this repo](https://github.com/W8SOJIB/W8RootWifiHKV2V2) • [🍴 Fork](https://github.com/W8SOJIB/W8RootWifiHKV2/fork)
-
-</div>
-```
-
----
-
-## 🎯 **GitHub Repository Settings**
-
-### 📝 **Repository Description** (Short)
-```
-🛡️ Advanced WiFi penetration testing tool with AI-powered PIN prediction, automated vulnerability detection, and professional reporting. Optimized for Termux Android environment.
-```
-
-### 🏷️ **Topics** (GitHub Tags)
-```
-wifi-hacking, wps-attack, pixie-dust, penetration-testing, security-testing, termux, android, wifi-security, bruteforce, ai-prediction, cybersecurity, ethical-hacking, wireless-security, network-security, automated-hacking
-```
-
-### 🌐 **Website URL**
-```
-https://t.me/W8SOJIB
-```
-
-This comprehensive GitHub description includes everything needed for a professional repository presentation, including badges, detailed features, installation instructions, usage examples, and proper legal disclaimers.
+📱 [Telegram](https://t.me/W8SOJIB) • ⭐ Star this repo • 🍴 Fork
