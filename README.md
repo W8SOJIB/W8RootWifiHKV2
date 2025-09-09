@@ -83,7 +83,7 @@ cd W8RootWifiHKV2
 bash termux_install.sh
 
 # Start the tool
-python oneshot.py
+sudo python oneshot.py
 ```
 
 ### 🐧 **Linux**
@@ -111,7 +111,7 @@ sudo python3 oneshot.py
 Simply run the tool without any arguments to access the beautiful menu interface:
 
 ```bash
-python oneshot.py
+sudo python oneshot.py
 ```
 
 The tool will display a beautiful menu interface with Smart AI capabilities:
