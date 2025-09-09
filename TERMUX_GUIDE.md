@@ -4,7 +4,7 @@
 
 ```bash
 # Copy and paste this entire block:
-pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.com/yourusername/W8RootWifiHK.git && cd W8RootWifiHK && bash termux_install.sh && echo "🎉 Ready to hack! Run: tsu && python oneshot.py"
+pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/W8SOJIB/W8RootWifiHKV2 && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && python oneshot.py"
 ```
 
 ## 📋 **Step-by-Step Installation**
@@ -18,19 +18,37 @@ pkg update && pkg upgrade -y && pkg install git -y && git clone https://github.c
 pkg update && pkg upgrade -y
 ```
 
-### **Step 3: Clone Repository**
+### **Step 3: Install Required Packages**
 ```bash
-pkg install git -y
-git clone https://github.com/yourusername/W8RootWifiHK.git
-cd W8RootWifiHK
+# Install root repository (for advanced tools)
+pkg install -y root-repo
+
+# Install core packages
+pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
+
+# Install Python package manager
+pkg install -y python-pip
+
+# Install additional WiFi tools
+pkg install -y aircrack-ng hashcat
+
+# Install Python dependencies
+pip install pyfiglet psutil requests
 ```
 
-### **Step 4: Run Installer**
+### **Step 4: Clone Repository**
 ```bash
+git clone https://github.com/W8SOJIB/W8RootWifiHKV2
+cd W8RootWifiHKV2
+```
+
+### **Step 5: Run Installer (Optional)**
+```bash
+# Optional: Run auto-installer for additional setup
 bash termux_install.sh
 ```
 
-### **Step 5: Start Hacking!**
+### **Step 6: Start Hacking!**
 ```bash
 tsu
 python oneshot.py
