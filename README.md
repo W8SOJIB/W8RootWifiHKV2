@@ -74,16 +74,114 @@ Unlike traditional WiFi tools that require extensive manual configuration, W8Tea
 
 ### 📱 **Termux (Android) - Recommended**
 
+#### **🚀 Quick Install (1-Minute Setup)**
 ```bash
+# Copy and paste this entire block:
+pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git tsu python wpa-supplicant pixiewps iw openssl python-pip aircrack-ng hashcat && pip install pyfiglet psutil requests && git clone https://github.com/W8SOJIB/W8RootWifiHKV2 && cd W8RootWifiHKV2 && echo "🎉 Ready to hack! Run: tsu && sudo python oneshot.py"
+```
+
+#### **📋 Step-by-Step Installation**
+
+# Update Termux
+
+```
+pkg update && pkg upgrade -y
+```
+```
+# Install root repository (for advanced tools)
+```
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y root-repo
+```
+```
+
+# Install Git
+```
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y git
+```
+
+# Install TSU (root access)
+
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y tsu
+```
+
+
+# Install Python
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y python
+```
+
+# Install Python package manager
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y python-pip
+```
+
+# Install WPA Supplicant
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y wpa-supplicant
+```
+# Install Pixiewps
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y pixiewps
+```
+
+# Install IW (WiFi tools)
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y iw
+```
+# Install OpenSSL
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install -y openssl
+```
+
+# Install Python dependencies
+```
+pip install pyfiglet psutil requests
+```
 # Clone repository
+```
 git clone https://github.com/W8SOJIB/W8RootWifiHKV2
 cd W8RootWifiHKV2
-
-# Run auto-installer
+```
+# Optional: Run auto-installer for additional setup
+```
 bash termux_install.sh
-
+```
 # Start the tool
-sudo python oneshot.py
+```
+tsu
+```
+```
+python oneshot.py
 ```
 
 ### 🐧 **Linux**
@@ -111,7 +209,7 @@ sudo python3 oneshot.py
 Simply run the tool without any arguments to access the beautiful menu interface:
 
 ```bash
-sudo python oneshot.py
+python oneshot.py
 ```
 
 The tool will display a beautiful menu interface with Smart AI capabilities:
