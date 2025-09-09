@@ -87,12 +87,10 @@ pkg update && pkg upgrade -y && pkg install -y root-repo && pkg install -y git t
 ```
 pkg update && pkg upgrade -y
 ```
-```
+
 # Install root repository (for advanced tools)
-```
-```
-pkg update && pkg upgrade -y
-```
+
+
 ```
 pkg install -y root-repo
 ```
@@ -100,9 +98,7 @@ pkg install -y root-repo
 
 # Install Git
 ```
-```
-pkg update && pkg upgrade -y
-```
+
 ```
 pkg install -y git
 ```
@@ -110,55 +106,40 @@ pkg install -y git
 # Install TSU (root access)
 
 ```
-pkg update && pkg upgrade -y
-```
-```
 pkg install -y tsu
 ```
 
 
 # Install Python
-```
-pkg update && pkg upgrade -y
-```
+
 ```
 pkg install -y python
 ```
 
 # Install Python package manager
 ```
-pkg update && pkg upgrade -y
-```
-```
 pkg install -y python-pip
 ```
 
 # Install WPA Supplicant
-```
-pkg update && pkg upgrade -y
-```
+
 ```
 pkg install -y wpa-supplicant
 ```
 # Install Pixiewps
 ```
-pkg update && pkg upgrade -y
-```
-```
+
 pkg install -y pixiewps
 ```
 
 # Install IW (WiFi tools)
-```
-pkg update && pkg upgrade -y
-```
+
 ```
 pkg install -y iw
 ```
 # Install OpenSSL
-```
-pkg update && pkg upgrade -y
-```
+
+
 ```
 pkg install -y openssl
 ```
@@ -181,7 +162,7 @@ bash termux_install.sh
 tsu
 ```
 ```
-python oneshot.py
+sudo python oneshot.py
 ```
 
 ### 🐧 **Linux**
